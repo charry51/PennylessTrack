@@ -1,0 +1,50 @@
+# ===================================================
+# 1. DEPENDENCIAS (PHP / Composer)
+# ===================================================
+# Descargadas mediante Composer, se regeneran con 'composer install'
+/vendor/
+composer.phar
+
+# Dependencias frontend (Comentado: no aplica si es una API pura en PHP)
+# node_modules/
+
+# ===================================================
+# 2. SECRETOS Y VARIABLES DE ENTORNO (Crítico)
+# ===================================================
+# Ficheros con credenciales de BBDD, API keys o tokens
+.env
+.env.*
+secrets.json
+
+# Excepción: se permite subir la plantilla de ejemplo sin datos reales
+!.env.example
+
+# ===================================================
+# 3. BASES DE DATOS LOCALES Y CACHÉ
+# ===================================================
+*.sqlite
+*.db
+
+# ===================================================
+# 4. TESTING Y LOGS
+# ===================================================
+# Informes de cobertura de PHPUnit y registros de depuración
+.phpunit.result.cache
+.phpunit.cache/
+*.log
+
+# Herramientas de test de otros lenguajes (Comentado: proyecto exclusivo PHP)
+# .tox/
+# .pytest_cache/
+
+# ===================================================
+# 5. ARCHIVOS DEL SISTEMA Y DEL IDE
+# ===================================================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Descartados: nadie en el equipo usa NetBeans ni Eclipse
+# .idea/
+# .project
+# .settings/
