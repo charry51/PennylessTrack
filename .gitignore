@@ -48,3 +48,6 @@ Thumbs.db
 # .idea/
 # .project
 # .settings/
+.venv/
+.pytest_cache/
+__pycache__/

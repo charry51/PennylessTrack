@@ -1,1 +1,0 @@
-STRIPE_SECRET_KEY = "sk_test_51MzEXAMPLE1234567890abcdefghijklmnopqrstuvwxyz"
